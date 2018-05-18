@@ -20,6 +20,9 @@ public class Cab {
     
     private String email;
     
+    private String email1;
+    
+        private String email2;
     
 
     
