@@ -7,55 +7,53 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="boot_cab")
+@Table(name = "boot_cab")
 public class Cab {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long id;
-    
-    private String cabType;
-    
-    private String contactperson;
-    
-    private String email;
-    
-    private String email1;
-    
-        private String email2;
-    
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	private Long id;
 
-    
-    public Long getId() {
-        return id;
-    }
+	private String cabType;
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	private String contactperson;
 
-    public String getCabType() {
-        return cabType;
-    }
+	private String email;
 
-    public void setCabType(String cabType) {
-        this.cabType = cabType;
-    }
+	private String email1;
 
-    public String getContactperson() {
-        return contactperson;
-    }
+	private String email2;
 
-    public void setContactperson(String contactperson) {
-        this.contactperson = contactperson;
-    }
+	public Long getId() {
+		return id;
+	}
 
-    public String getEmail() {
-        return email;
-    }
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-    
+	public String getCabType() {
+		return cabType;
+	}
+
+	public void setCabType(String cabType) {
+		this.cabType = cabType;
+	}
+
+	public String getContactperson() {
+		return contactperson;
+	}
+
+	public void setContactperson(String contactperson) {
+		this.contactperson = contactperson;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 }
