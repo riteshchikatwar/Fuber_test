@@ -11,6 +11,16 @@ import javax.persistence.Table;
 public class Cab {
 
 	@Id
+
+
+
+
+
+
+
+
+
+
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
 
